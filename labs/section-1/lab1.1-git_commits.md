@@ -84,14 +84,14 @@ git commit -m "Changed afile"
 git log
 ```
 
-In case you forget what change you made to `afile.txt`. you can use the diff command to see.  In the command below, substitute the second to last commit SHA in place of '<commit>'. HEAD refers to the latest commit.
+In case you forget what change you made to `afile.txt`. you can use the diff command to see.  In the command below, substitute the second to last commit SHA in place of '&lt;commit&gt;'. HEAD refers to the latest commit.
 ```
 git diff <commit> HEAD
 ```
 
 ### Undo a commit
 
-Oops! You didn't really want to commit that change.  Let's revert that commit safely. (HEAD refers to the latest commit.)
+Oops! You didn't really want to commit that change.  Let's revert the last commit safely.
 ```
 git revert HEAD
 ```

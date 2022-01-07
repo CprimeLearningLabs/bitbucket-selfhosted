@@ -72,7 +72,7 @@ Take a look at your commit history now.  See that both HEAD and the branch ref h
 git log --oneline
 ```
 
-**Question:** If you were to do a merge of your feature branch to the master branch right now, would you do a fast-forward merge or a non-fast-forward merge?  Why?
+**QUESTION:** *If you were to do a merge of your feature branch to the master branch right now, would you do a fast-forward merge or a non-fast-forward merge?  Why?*
 
 ### Merge the feature branch to master
 
@@ -180,4 +180,4 @@ Look at the commit graph again to see the results.
 git log --oneline --graph --all
 ```
 
-**Question:** An alternative to merging the master branch into the feature branch would have been to rebase the feature branch onto the master branch.  What would be the advantage and disadvantage of doing the rebase instead of the merge?
+**QUESTION:** *An alternative to merging the master branch into the feature branch would have been to rebase the feature branch onto the master branch.  What would be the advantage and disadvantage of doing the rebase instead of the merge?*
