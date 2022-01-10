@@ -53,7 +53,7 @@ Go to the "Bitbucket Lab" repository.
 
 Click on the `Repository settings` menu item in the left menu panel.  Then click on the `Branches` menu item in the Repository settings menu panel.
 
-Notice that all the settings are disabled on the page.  To override the project settings, change the radio button under "Project settings inheritance" to the "Use custom settings" selection. The settings on the page then become enabled.
+Notice that all the settings are not editable on the page.  To override the project settings, change the radio button under "Project settings inheritance" to the "Use custom settings" selection. The settings on the page then become editable.
 
 #### Branching model
 
