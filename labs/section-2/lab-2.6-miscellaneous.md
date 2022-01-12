@@ -1,7 +1,7 @@
 # Miscellaneous
 
 Lab Objectives:
-- Watch on a repository
+- Watch a repository
 - Examine Bitbucket logs
 - Perform advanced search
 
@@ -19,7 +19,7 @@ Set the fields for watching this repository:
 
 Click `Save` in the dialog box.  Notice that the button has changed to `Watching` in the upper right of the page.
 
-Now click on your user avator icon on the right end of the top menu bar of the page.  In the drop-down menu, select `Manage account`.
+Now click on your user avatar icon on the right end of the top menu bar of the page.  In the drop-down menu, select `Manage account`.
 
 On the "Account" page, click on the `Watched repositories` menu item in the left menu panel.
 
