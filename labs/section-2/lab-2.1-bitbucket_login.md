@@ -13,12 +13,13 @@ Using the URL and credentials provided to you by the instructor, log into to the
 
 ### Adjust account settings
 
-#### Set you time zone
+#### Set your time zone
 
 After logging in, you might see an alert about setting your time zone.  If you see the alert in the upper right top menu section, click on the alert and optionally change your time zone.
-> If you don't see the alert, then your browser is set to GMT time zone.
 
-![Time zone alert](./images/2.1-timezone-alert.png "Time zone alert")
+<img src="./images/2.1-timezone-alert.png" width="450">
+
+> If you don't see the alert, then your browser is might be set to GMT time zone.
 
 #### Upload your SSH key (Optional)
 
@@ -26,7 +27,7 @@ If you want to use SSH to push and pull code to and from Bitbucket, you can uplo
 
 Click on your avatar icon in the upper right top menu bar.  In the drop down menu, select `Manage account`.  Then in the left hand menu pane, select `SSH keys`.
 
-To upload your SSH key, click the blue `Add key` button on the page.  This will open the "Add public key" page.  In the text box, paste in your **public** SSH key (ends in `.pub`), then click `Add key`.
+To upload your SSH key, click the blue `Add key` button on the page.  This will open the "Add public key" page.  In the text box, paste in your &ast;**public**&ast; SSH key (ends in `.pub`), then click `Add key`.
 
 ### Navigate to a project and repository
 
@@ -34,4 +35,4 @@ In the top menu bar, click on the `Projects` menu item.  This will open a page l
 
 Click on the "Demos" project name.  This will open a page listing the repositories in the project that you can see.  There should be one repository "Training One".
 
-Click on the "Training One" repository name.  This will open a page from which you can explore the repository contents.  That's as far as we want to go in this lab---we will be covering all the menu items and operations in detail after this lab.
+Click on the "Training One" repository name.  This will open a page from which you can explore the repository contents.  That's as far as we want to go in this lab &mdash; we will be covering all the menu items and operations in detail after this lab.

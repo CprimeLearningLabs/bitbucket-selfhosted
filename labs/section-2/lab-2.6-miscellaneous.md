@@ -9,7 +9,7 @@ Lab Objectives:
 
 ### Watch a repository
 
-Go to the "Bitbucket Lab" repository.
+Go to the "Coffee Bar" repository.  Make sure you are on the `Source` page for the repository.
 
 Click on the `Watch` button in the upper right of the page.  This shows a "Watch" dialog box.  
 
@@ -23,7 +23,7 @@ Now click on your user avatar icon on the right end of the top menu bar of the p
 
 On the "Account" page, click on the `Watched repositories` menu item in the left menu panel.
 
-The "Watched repositories" pages should show that you are watching the "Bitbucket Lab" repository.  Notice that you could edit your watch settings for the repository here.
+The "Watched repositories" pages should show that you are watching the "Coffee Bar" repository.  Notice that you could edit your watch settings for the repository here.
 
 Click on the `Notification settings` menu item in the left menu panel.  On the "Notification settings" page, you could optionally change the settings to receive emailed notifications immediately instead of in periodic batches.
 
@@ -31,19 +31,19 @@ Click on the `Notification settings` menu item in the left menu panel.  On the "
 
 #### Push logs
 
-Go back to the "Bitbucket Lab" repository.
+Go back to the "Coffee Bar" repository.
 
 Click on the `Repository settings` menu item in the left menu panel.
 
-Click on `Push logs` in the Repository settings menu.
+Click on `Push log` in the Repository settings menu.
 
-Notice that for the "main" branch there are a couple of actions that were done as part of an earlier lab.  Change the branch to "feature-lab-2.3", and notice that more actions are shown.
+Notice that for the "main" branch there are a couple of actions that were done as part of an earlier lab.  Change the branch to "feature/lab-2.3", and notice that more actions are shown.
 
 #### Repository audit logs
 
-Click on `Audit logs` in the Repository settings menu.
+Click on `Audit log` in the Repository settings menu.
 
-Scroll through the audit log to see the access history of the repository.
+Scroll through the audit log to see the access history of the repository.  You should see entries for your student user and for Jordan.
 
 #### Project audit logs
 
@@ -51,10 +51,10 @@ Go to the "Training Labs" project.
 
 Click on the `Project settings` menu item in the left menu panel.
 
-Click on `Audit logs` in the Project settings menu.
+Click on `Audit log` in the Project settings menu.
 
 Scroll through the audit log and experiment with some of the search options.  Click on the `+ More` button to add more search options.
 
 ### Advanced search
 
-In the search box in the blue top menu bar, type "readme" and then hit `return` key.  Notice what shows up.  Try typing in some text you added to your files in the labs and see if you can find that text.
+In the search box in the blue top menu bar, type "welcome" and then hit the `return` key.  Notice what shows up.  Try typing in some text you added to your files in the labs and see if you can find that text.

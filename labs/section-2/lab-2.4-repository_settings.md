@@ -23,7 +23,7 @@ Notice that as the project creator, you are already granted access at the "admin
 
 In the "Add Groups" field under the "Group access" heading, type in "Dev" and see that "Developers" is an auto-suggested user. Select "Developers".  To the right, select "Write" as the level of permission to grant.  Then click the `Add` button.
 
-Now go to the "Bitbucket Lab" repository.  (Remember, a quick way to get to a repository is from the `Repositories` top menu drop down.)
+Now go to the "Coffee Bar" repository.  (Remember, a quick way to get to a repository is from the `Repositories` top menu drop down. Alternatively, you could click on `Repositories` in the project left menu panel, and then click on the "Coffee Bar" repository name.)
 
 Click on the `Repository settings` menu item in the left menu panel.  Then click on the `Repository permissions` menu item in the Repository settings menu panel.
 
@@ -47,13 +47,13 @@ Click the `Create` button.  The page will then show a summary of the added branc
 
 ### Set branching model
 
-Let's now modify the branching model just for the "Bitbucket Lab" repository.
+Let's now modify the branching model just for the "Coffee Bar" repository.
 
-Go to the "Bitbucket Lab" repository.
+Go to the "Coffee Bar" repository.
 
 Click on the `Repository settings` menu item in the left menu panel.  Then click on the `Branches` menu item in the Repository settings menu panel.
 
-Notice that all the settings are not editable on the page.  To override the project settings, change the radio button under "Project settings inheritance" to the "Use custom settings" selection. The settings on the page then become editable.
+Notice that the settings are not editable on the page.  To override the project settings, change the radio button under "Project settings inheritance" to the "Use custom settings" selection. The settings on the page then become editable.
 
 #### Branching model
 
@@ -69,10 +69,12 @@ Uncheck "Bugfix", "Hotfix", and "Release".  For "Feature", change the prefix to 
 
 #### Automatic merging
 
-We will leave the settings unchanged, with automatic merging "Off".
+We will leave the setting for automatic merging unchanged as "Off".
 
 #### Branch deletion on merge
 
 Pruning unnecessary branches is a good idea.  Change the Default to "On".  (This can be overridden at the time of a merge.)
 
 Click the blue `Save` button at the bottom of the page.
+
+That's it for now.  We'll make a few more settings changes in the next lab, and then see the effect of the new settings.

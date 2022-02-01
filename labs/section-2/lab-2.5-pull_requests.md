@@ -14,7 +14,7 @@ You should have completed Lab 2.4.
 
 ### Set repository settings for pull requests
 
-Go to the "Bitbucket Lab" repository.
+Go to the "Coffee Bar" repository.
 
 Click on the `Repository settings` menu item in the left menu panel.
 
@@ -24,13 +24,13 @@ Click on the `Merge checks` menu item in the Repository settings menu panel.
 
 All of merge checks should show as inherited from the project settings as disabled.  Let's change a couple:
 - Change "Minimum approvals" to `enabled`, and in the pop-up dialog set the number of approvals to 1.
-- Change "No 'needs work' status" to `enabled`.
+- Change "No incomplete tasks" to `enabled`.
 
 #### Set allowed merge strategies
 
 Click on the `Merge strategies` menu item in the Repository settings menu panel.
 
-Notice that all the settings are not editable on the page.  To override the project settings, change the radio button under "Project settings inheritance" to the "Use custom settings" selection. The settings on the page then become editable.
+Notice that the settings are not editable on the page.  To override the project settings, change the radio button under "Project settings inheritance" to the "Use custom settings" selection. The settings on the page then become editable.
 
 The "Merge commit" strategy should already be enabled and set as default.  Let's allow a couple others:
 - Enable "Rebase and merge" (don't set as default)
@@ -54,7 +54,7 @@ Click the `Create` button.  The page will then show a summary of the added revie
 
 Click on the `Create pull request` menu item in the left menu panel.  This will open a wizard for creating a pull request.
 
-For the Source branch, select "feature-1ab-2.3".  Leave the Destination as "main".  Click the blue `Continue` button.
+For the Source branch, select "feature/lab-2.3".  Leave the Destination as "main".  Click the blue `Continue` button.
 
 The next page is a pull request form.  We will accept all the default entries.  The description is a summary of the commits in the pull request.  The reviewers automatically includes "Jordan" by default just as we configured above.  Notice that if you try typing your own assigned name into the reviewers text box, you will not be able to add yourself as a reviewer.
 
@@ -68,23 +68,23 @@ Click on the `Pull requests` menu item in the left menu panel.  See that your pu
 
 ### Review and approve the pull request
 
-Open a second browser tab or window, and log into Bitbucket as user "Jordan".  The class instructor should have provided you with credentials for that user.
+Open a second browser and log into Bitbucket as user "Jordan".  (If you can't open a second browser, then you can log out and log back in as Jordan.)  The class instructor should have provided you with credentials for that user.
 
-After logging in as Jordan, you will notice the new pull request listed as pending your review.
+After logging in as Jordan, you will notice the new pull request listed as pending your review.  There may be other pull requests also listed from a demo repository.  For this lab you want the pull request just created for "feature/lab-2.3".
 
 #### Review the pull request
 
 As user Jordan, click on the pull request link from the dashboard page. (If you have clicked around, you can get back to the dashboard page by clicking on the Bitbucket logo in the upper left corner of the page.)
 
-On the pull request page, notice that the `Needs work` and `Approve` buttons appear in the upper right.
+On the pull request page, notice that the `Needs work` and `Approve` buttons appear in the upper right (yellow and green circle icons).
 
-Click on the `Diff` sub-tab to show the changes to the files affected by the pull request.  Let's add some comments.
+Click on the `Diff` sub-tab to show the changes to the files affected by the pull request.  Let's add some comments as part of a code review.
 
 Click on the `Start review` button in the upper right of the page.  This will prevent publishing your comments into the Overview section until you are done with the review.
 
-Hover over a green highlighted line in `afile.txt` and click the blue `+` icon that appears.  Add a comment and then click `Add comment`.
+Hover over a green highlighted line in `menu.txt` and click the blue `+` icon that appears.  Add a comment and then click `Add comment`.
 
-Hover over a green highlighted line in `readme.md` and click the blue `+` icon that appears.  Add a comment and then click `Convert to task`.
+Hover over a green highlighted line in `welcome.txt` and click the blue `+` icon that appears.  Add a comment and then click `Convert to task`.
 
 Click the `Finish review` button in the upper right of the page.  This will open a dialog to finalize the review.
 * Add an overview comment.
@@ -96,7 +96,7 @@ Click on the `Overview` sub-tab to see the published review comments.  Notice th
 
 #### Resolve a merge block
 
-Go back to the browser tab or window in which you were logged in as "Student" user.
+Go back to the browser window in which you are logged in as "Student" user.
 
 Click on the `Pull requests` menu item in the left menu panel to open a list of pull requests.  Then click on the name link of the listed pull request.
 
@@ -106,7 +106,7 @@ Click on the `1 open task` button at the top of the page.  Click the checkbox to
 
 #### Approve the pull request
 
-Go back to the browser tab or window in which you were logged in as "Jordan" user.
+Go back to the browser window in which you are logged in as "Jordan" user.
 
 Refresh the pull request page to get the updates from the changes above.
 
@@ -125,6 +125,6 @@ Click the `Merge` button.  The pull request status should change to `MERGED`.
 
 Click the `Commits` menu item in the left menu panel to show all the commits for the main branch.  Confirm that the pull request merge commit appears.
 
-Click the `Branches` menu item in the left menu panel to show a list of branches.  Confirm that the "feature-lab-2.3" brand is no longer present.
+Click the `Branches` menu item in the left menu panel to show a list of branches.  Confirm that the "feature/lab-2.3" branch is no longer present.
 
 Finally, log out of the window for Jordan.  Jordan's work is done for today.

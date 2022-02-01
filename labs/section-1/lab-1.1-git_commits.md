@@ -18,7 +18,7 @@ You should have Git installed on your local machine.  If you do not have Git ins
 
 On your local machine, create a temporary directory where you will be able to create additional subdirectories.  In a command terminal, go to that temporary directory.
 
-Create a folder for your new repository---let's call the repository `coffeebar`.  Then go into the folder:
+Create a folder for your new repository &mdash; let's call the repository `coffeebar`.  Then go into the folder:
 ```
 mkdir coffeebar
 cd coffeebar
