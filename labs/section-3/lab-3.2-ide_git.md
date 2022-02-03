@@ -7,11 +7,11 @@ Lab Objectives:
 
 ## Lab
 
-**Each IDE is different in how to use Git, so this lab does not provide detailed instructions.  Instead it only suggests a sequence of activities to perform.**
+:bangbang: **Each IDE is different in how to use Git, so this lab does not provide detailed instructions.  Instead it only suggests a sequence of activities to perform.**
 
 #### Create a new local repository
 
-Since most IDEs have a particular structure to projects, solutions, workspaces, etc., the repositories you already have in Bitbucket for prier labs won't be recognized as appropriate for your IDE.  Instead, you should create a new local project or copy an existing one to work with in your IDE.
+Since most IDEs have a particular structure for projects, solutions, workspaces, etc., the repositories you already have in Bitbucket for prier labs won't be recognized as appropriate for your IDE.  Instead, you should create a new local project or copy an existing one to work with in your IDE.
 
 Initialize your new local project as a Git repository.  Recall that you can use the `git init` command.
 
@@ -36,4 +36,4 @@ Go to Bitbucket and comfirm the new commit shows up there.
 
 Go into Bitbucket and edit a file from within Bitbucket.  Commit the change within Bitbucket.
 
-Go back to your IDE and fetch the changes from Bitbucket.  Verify that the new commit and changes show up in your IDE.
+Go back to your IDE and pull the changes from Bitbucket.  Verify that the new commit and changes show up in your IDE.

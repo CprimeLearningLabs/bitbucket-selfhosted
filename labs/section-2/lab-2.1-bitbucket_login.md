@@ -19,7 +19,7 @@ After logging in, you might see an alert about setting your time zone.  If you s
 
 <img src="./images/2.1-timezone-alert.png" width="450">
 
-> If you don't see the alert, then your browser is might be set to GMT time zone.
+> If you don't see the alert, then your browser might be set to GMT time zone.
 
 #### Upload your SSH key (Optional)
 
