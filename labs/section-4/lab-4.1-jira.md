@@ -52,7 +52,7 @@ In Bitbucket, click on `Branches` in the left menu panel.  In the shown list of 
 
 Go back to Jira.  You can either use the browser back button, or you can open a new browser tab and reenter the Jira URL.
 
-Open the ticket you had created in Jira.  You can find it by clicking on `Issues` in the top menu bar, then selecting your issue under "RECENT ISSUES" in the drop-down menu.
+Open the issue you had created in Jira.  You can find it by clicking on `Issues` in the top menu bar, then selecting your issue under "RECENT ISSUES" in the drop-down menu.
 
 Notice that under the "Development" section on the right of the issue details page you will now see a link `1 branch`.  Click it to bring up a dialog showing some details for the branch.  Then close the dialog.
 
@@ -66,7 +66,7 @@ Click on `Source` in the left menu panel.  On the source page, change the select
 
 Click on the `menu.txt` file name to open the file content, then click the `Edit` button.
 
-Make a change to the content, then click the `Commit` button.  In the commit dialog, change the commit message to include a reference to the Jira ticket (e.g., "CBR-1 - menu.txt edited online with Bitbucket").  Then click the `Commit` button.
+Make a change to the content, then click the `Commit` button.  In the commit dialog, change the commit message to include a reference to the Jira ticket (e.g., "**CBR-1** - menu.txt edited online with Bitbucket").  Then click the `Commit` button.
 
 Click `Commits` in the left menu panel.  Notice that your new commit shows up, and notice a link to the Jira issue to the right.
 
@@ -74,7 +74,7 @@ Click `Commits` in the left menu panel.  Notice that your new commit shows up, a
 
 Go back to Jira.  Open the issue if it is not already open.  Notice that a new link `1 commit` appears under the "Development" section in the ticket.  Click the link to open a dialog with commit details.  Then close the dialog.
 
-#### Create a pull request from Jira
+### Create a pull request from Jira
 
 In the Jira ticket, click on the `1 branch` link to open a dialog with details on the branch.
 
