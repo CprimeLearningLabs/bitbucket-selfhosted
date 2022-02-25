@@ -157,7 +157,7 @@ In the merge confirmation dialog, click the `OK` button.  A "Merge Conflicts" wa
 
 #### Resolve merge conflict
 
-Click `File status` in the left menu panel.  Notice that `afile.txt` shows as both staged and unstaged.  The merged file is staged, but it contains Git markings demarcating the area of merge conflict.  We do not want the file committed in that state, so we will resolve the conflict in the unstaged version of the file.
+Click `File status` in the left menu panel.  Notice that `menu.txt` shows as both staged and unstaged.  The merged file is staged, but it contains Git markings demarcating the area of merge conflict.  We do not want the file committed in that state, so we will resolve the conflict in the unstaged version of the file.
 
 Recall that Git's merge conflict markings show the change from the target branch ("integration") above the "=======" separator and the change from the source branch ("feature-lab-3") below.  In this case, we will go with the source branch's version of the change.
 
